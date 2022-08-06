@@ -678,6 +678,7 @@ nav {
   font-size: 48px;
   margin-bottom: 60px;
   z-index: 69;
+  position: relative;
 }
 
 .project {
@@ -922,8 +923,8 @@ footer .container {
 }
 
 @media (max-width: 768px) {
-  .message__area:focus #projects {
-    transform: translateY(200px);
+  .message__area:focus .projects__title {
+    z-index: -1;
   }
   .modal {
     top: 0;
