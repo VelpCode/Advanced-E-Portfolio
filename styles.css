@@ -893,7 +893,6 @@ footer .container {
 }
 
 @media (max-width: 820px) {
-
   .header__me--photo {
     display: none;
   }
