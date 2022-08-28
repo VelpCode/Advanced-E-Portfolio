@@ -48,4 +48,8 @@ function moveBackground(event) {
   }
 }
 
+function alertNotification() {
+  alert("Resume is still in progress. 😅")
+}
+
 // Project done!!!

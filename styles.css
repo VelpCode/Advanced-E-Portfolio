@@ -56,6 +56,10 @@ section {
   transition: 300ms background-color ease-in-out !important;
 }
 
+.cursor__hover:hover {
+  cursor: pointer;
+}
+
 .darkTheme footer .container {
   background-color: #101010;
 }
