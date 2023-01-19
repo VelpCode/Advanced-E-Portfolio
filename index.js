@@ -17,11 +17,10 @@ function contact() {
     })
     .catch(() => {
       alert(
-        "The email service is temporarly unavailable. Please contact me directly at alexfarkasbusiness@gmail.com"
+        "The email service is temporarly unavailable. Please contact me directly at velpmail@gmail.com"
       );
     });
 }
-
 
 function toggleModal() {
   document.body.classList.toggle("modal--open");
@@ -41,17 +40,16 @@ function moveBackground(event) {
   const y = event.clientY * scaleFactor;
 
   for (let i = 0; i < shapes.length; i++) {
-    const isOdd = i % 2 - 1 !== 0;
+    const isOdd = i % 2 !== 0;
     const boolInt = isOdd ? -1 : 1;
     shapes[i].style.transform = `translate(${x * boolInt}px, ${
       y * boolInt
     }px) rotate(${xRot * boolInt}deg)`;
   }
-
-
-  
 }
 
 function alertNotification() {
-  alert("Resume is still in progress.. @velpcode 😅")
+  alert("Resume is still in progress. 😅")
 }
+
+// Project done!!!
